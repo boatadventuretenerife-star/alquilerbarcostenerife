@@ -1,0 +1,4 @@
+# Redirect legacy product URLs from the previous shop.
+# These products no longer exist; send visitors and search engines to the current site.
+RewriteEngine On
+RewriteRule ^(?:[a-z]{2}/)?tienda(?:/|$) https://alquilerbarcostenerife.com/ [R=301,L,NE]
